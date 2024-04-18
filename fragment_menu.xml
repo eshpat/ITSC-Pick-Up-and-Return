@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageButton
+        android:id="@+id/Adaptors"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="490dp"
+        android:background="@drawable/adaptor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Cables"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="490dp"
+        android:background="@drawable/cables3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/TV"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Projecter"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="262dp"
+        android:background="@drawable/projecter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DVDPlayer"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/dvd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Other"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/other"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Screen"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="475dp"
+        android:layout_marginTop="679dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="536dp"
+        android:background="@drawable/projecterscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Laptops"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="490dp"
+        android:background="@drawable/laptop_icon_29"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/FlipChart"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/flipchart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/SoundSystem"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="262dp"
+        android:background="@drawable/sound_system"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/PresentationRemote"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/presentation2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DocumentCamera"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/documentcamera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="56dp"
+        android:text="  ITSC Equipment"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/adaptortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="470dp"
+        android:text="Adaptors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CablesLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="471dp"
+        android:text="Cables"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LaptopLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="470dp"
+        android:text="Laptops"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RemoteLable"
+        android:layout_width="62dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="360dp"
+        android:text="Presentation Remotes"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/DVDLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="364dp"
+        android:text="DVD Player"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/FLipchartLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="362dp"
+        android:text="Flipchart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SoundSystemLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="243dp"
+        android:text="Sound System"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OtherLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="119dp"
+        android:text="Other"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ProjecterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="243dp"
+        android:text="Projecter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ScrenLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="243dp"
+        android:text="Screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/DCLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="122dp"
+        android:text="Document Camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="122dp"
+        android:text="TV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

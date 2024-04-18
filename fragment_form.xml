@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form">
+
+    <EditText
+        android:id="@+id/DateIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <EditText
+        android:id="@+id/TimeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="760dp" />
+
+    <TextView
+        android:id="@+id/dateLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Date in "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="902dp" />
+
+    <EditText
+        android:id="@+id/InitalsIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ITSC Initals "
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="1087dp" />
+
+    <EditText
+        android:id="@+id/Signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Signature"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="983dp" />
+
+    <TextView
+        android:id="@+id/TimeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Time in "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="806dp" />
+
+    <TextView
+        android:id="@+id/EndInfo"
+        android:layout_width="108dp"
+        android:layout_height="59dp"
+        android:text="End: "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <EditText
+        android:id="@+id/Initals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ITSC Initals "
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <TextView
+        android:id="@+id/timelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Time in "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/TimeEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/DateEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Date in "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/StartInfo"
+        android:layout_width="108dp"
+        android:layout_height="59dp"
+        android:text="Start: "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoEquipment"
+        android:layout_width="250dp"
+        android:layout_height="84dp"
+        android:text="Equipment"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/EnterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Print Name"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
